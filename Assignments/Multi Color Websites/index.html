@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Color Website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root{
+            --color: rgba(0, 68, 255, 0.864);
+            --seccolor: rgba(45, 156, 56, 0.803);
+            --anothercolor: rgb(25, 137, 157);
+            --deccolor: rgb(185, 227, 18);
+            --maincolor: rgb(145, 255, 0);
+            --defpad: 15px;
+            --defop: 0.7;
+        }   
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body{
+            background-color: var(--seccolor);
+        }
+
+        .nav{
+            background-color: var(--color);
+            /* border: 1px solid var(--maincolor); */
+        }
+
+        .nav li:hover{
+            cursor: pointer;
+            background-color: var(--anothercolor);
+            border-radius: 10px;
+        }
+
+        ul{
+            display: flex;
+        }
+
+        ul li{
+            list-style: none;
+            font-size: 25px;
+            font-weight: bold ;
+            font-family: "Poppins", serif;
+            opacity: var(--defop);
+            padding: var(--defpad);
+            /* border: 2px solid var(--seccolor); */
+
+        }
+
+        .container{
+            text-align: center;
+            margin: 20px 100px;
+            padding: var(--defpad);
+            font-family: "Poppins", serif;
+            font-size: 20px;
+            color: black;
+            border: 5px solid var(--maincolor);
+            background-color: var(--anothercolor);
+            border-radius: 15px;
+        }
+
+        h1{
+            text-align: center;
+            color: var(--deccolor);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Introduction</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim facere recusandae pariatur voluptatem fugit dolorum maxime possimus voluptate ullam, illum iste autem a. Sed laudantium ex incidunt suscipit dolores quod unde. Soluta ex quas perferendis expedita, inventore eveniet, impedit dolor error assumenda distinctio autem nobis ad dicta iste delectus iure veritatis ullam nemo est! At praesentium quaerat ducimus ea itaque totam eaque dolore sint, illum, voluptate dolor laboriosam voluptas cumque harum atque eum. Omnis obcaecati nemo veritatis exercitationem, natus corporis maiores officia ullam saepe nesciunt eos quae dignissimos hic optio voluptates assumenda deleniti necessitatibus facilis, soluta dolorum aliquid. Enim sequi ipsa cum tenetur laboriosam vero dolorum delectus repellendus consequatur? Explicabo repellendus eum provident temporibus, necessitatibus veniam aliquam similique obcaecati modi ab laboriosam vel placeat tempore praesentium amet! Earum in id quae nobis sapiente voluptatum ex aut magnam rem itaque soluta quod cumque deleniti et architecto aliquam corrupti ut, optio facere animi recusandae esse? Vitae, error incidunt iusto alias culpa neque optio saepe velit placeat repudiandae ea dolores unde quos accusamus mollitia atque officiis eos obcaecati? Harum, cumque ex! Harum velit eligendi dignissimos dolores! Quaerat accusantium quo optio animi omnis inventore ratione, doloremque sed tempore excepturi soluta, sunt, eveniet facere esse.
+        </p>
+    </div>
+
+</body>
+</html>
