@@ -5,7 +5,7 @@ It includes HTML, CSS, and JavaScript examples that helped me understand core we
 
 📘 Purpose
 
-The main goal of this repo is learning and practice — to strengthen my understanding of front-end web development and to track my progress over time.
+The main goal of this repo is learning, practice and to strengthen my understanding of full stack web development and to track my progress over time.
 
 🧠 Topics Covered
 
